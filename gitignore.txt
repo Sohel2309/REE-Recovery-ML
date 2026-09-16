@@ -1,0 +1,47 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Temporary / generated artifacts
+*.tmp
+*.log
+/tmp/
+/build/
+/dist/
+*.egg-info/
+
+# Large generated outputs (regenerate from src/ rather than committing)
+results/
+*.pkl
+*.joblib
+
+# Excel/Office lock files
+~$*.xlsx
+~$*.pptx
+~$*.docx
